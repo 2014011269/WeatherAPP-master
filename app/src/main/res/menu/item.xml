@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_query"
+        android:orderInCategory="100"
+        android:title="天气查询"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sms"
+        android:orderInCategory="101"
+        android:title="天气预警"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_update"
+        android:orderInCategory="102"
+        android:title="更新说明"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="103"
+        android:title="关于"
+        app:showAsAction="never" />
+</menu>
